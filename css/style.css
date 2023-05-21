@@ -1,0 +1,754 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap');
+
+/* ######################## Body part ##################### */
+
+* {
+    Font-family: 'Roboto Slab', serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.background-color {
+    background-color: #ddd;
+}
+
+/* ############################# header ############################ */
+
+.header {
+    height: 95vh;
+    border: 10px soild red;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Header_home.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ############################ Navbar ####################### */
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.topnav {
+
+    overflow: hidden;
+    border-bottom: 3px solid rgb(248, 243, 243);
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.topnav a:hover {
+    color: #fff;
+    background-color: rgba(202, 198, 193, 0.356);
+}
+
+.nav-item {
+    padding-right: 100px;
+}
+
+.topnav .logo {
+    float: left;
+}
+
+/* #################### header contact ###################### */
+
+
+.header-headding,
+.header-paragraph,
+.btn {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 13px;
+}
+
+.btn {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 10px;
+}
+
+.header-headding {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+
+.header-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    transform: translate(-50%, -50%);
+}
+
+/* ###################### button #################### */
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+    background-color: #f2f2f2;
+    border-radius: 10rem;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px rgba(151, 146, 146, 0.5);
+
+}
+
+.btn-primary {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgb(7, 151, 7);
+    color: rgb(226, 226, 226);
+}
+
+/* ######################## showcase style ############################ */
+
+.showcase {
+    padding: 5rem 1.5rem;
+
+}
+
+.row1,
+.row2 {
+    height: 350px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 1.2rem;
+
+
+}
+
+.row1 {
+    margin-bottom: 4rem;
+}
+
+/* ###################### image-box and contact-box###################### */
+
+.img-box1,
+.text-box1 {
+    background-color: rgb(255, 255, 255);
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.img-box2,
+.text-box2 {
+    background-color: #ffffff;
+    float: right;
+    width: 50%;
+    height: 100%;
+
+}
+
+/* ####################### image contact ########################### */
+.row .img-box1 img {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.row .img-box2 img {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+/* ############################## text contact ########################### */
+
+.text-box1 {
+    padding: 0.7rem;
+    overflow: auto;
+
+}
+
+.text-box2 {
+    padding: 0.7rem;
+    overflow: hidden;
+}
+
+.row .text-box1 h1 {
+    font-size: 1.5rem;
+    border-bottom: 4px solid #936161;
+    display: inline-block;
+}
+
+.row .text-box1 p {
+    padding-top: 0.7rem;
+    font-size: 16px;
+
+
+}
+
+.row .text-box2 h1 {
+    font-size: 1.5rem;
+    border-bottom: 4px solid #936161;
+    display: inline-block;
+
+
+}
+
+.row .text-box2 p {
+    padding-top: 0.7rem;
+    font-size: 16px;
+    padding-right: 10px;
+
+
+}
+
+/* ########### button text-box ########### */
+.btn1 {
+    display: inline-block;
+    padding: 0.2em 0.8rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    background-color: #ffffff;
+    border: 2px solid red;
+    border-radius: 1.5rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.btn1-primary {
+    color: rgb(165, 32, 32);
+    text-decoration: none;
+    color: rgb(3, 1, 1);
+}
+
+.btn1:hover {
+    left: 0%;
+    background-color: rgb(93, 214, 93);
+    color: rgb(255, 255, 255);
+}
+
+
+/* #################################### box-size contact ###################### */
+.box-contact {
+    height: 468px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.box {
+
+    display: inline-block;
+    margin: 5rem 0;
+    float: left;
+    padding: 30px;
+    width: 33.3333%;
+    text-align: center;
+
+}
+
+.box1 {
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: rgb(248, 248, 248);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+.box2 {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+    color: rgb(255, 255, 255);
+    background: #ee0979;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.box3 {
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: rgb(230, 230, 230);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+
+
+}
+
+.box::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* ###################################  font color style ######################### */
+
+.fa-route {
+    color: rgb(250, 12, 12);
+}
+
+.fa-strikethrough {
+    color: rgb(58, 5, 156);
+}
+
+/* #########################  footer ################################ */
+
+.footer {
+    background-color: #24243e;
+    border: 2px solid black;
+    font-size: 16px;
+}
+
+.footer .social-media-logo {
+    width: 50px;
+    display: inline-block;
+    padding: 0 auto;
+    text-align: center;
+}
+
+.footer-text {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.logo-footer {
+    margin-left: 33.33%;
+    transform: translate(15%);
+}
+
+
+
+/* #########################################       About       #########################################   */
+/* ###########################################################################################################   */
+
+
+
+.about {
+    color: black;
+
+}
+
+.container-about {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ##################################### about navbar ########################## */
+
+.header-about {
+    background-color: #272525;
+}
+
+.topnav-about {
+    background-color: #272525;
+    overflow: hidden;
+    border-bottom: 0px solid rgb(250, 247, 247);
+
+}
+
+.topnav-about a {
+    float: right;
+    display: block;
+    color: #f7f5f5;
+    text-align: center;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.topnav-about a:hover {
+    color: #fff;
+    background-color: rgba(202, 198, 193, 0.356);
+}
+
+.nav-item-about {
+    padding-right: 100px;
+}
+
+.topnav-about .logo-about {
+    float: left;
+}
+
+/* ############################################ about body ###################################### */
+
+.contact-about .about-us h1 {
+    border-bottom: 10px solid red;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 32px;
+}
+
+.contact-text p {
+    padding-top: 0.5rem;
+    font-size: 16px;
+}
+
+/* ################################################ box-contact ################################ */
+
+.left-side {
+    float: left;
+    width: 50%;
+    padding: 0.5rem 4.5rem;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.right-side {
+    padding: 0.5rem 4.5rem;
+    float: right;
+    width: 50%;
+    list-style-type: none;
+}
+
+.imp-topic {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    display: inline-block;
+    width: 50%;
+    overflow: auto;
+    margin-bottom: 8vh;
+
+
+}
+
+
+/* ########################################## Count visit ######################### */
+
+
+.people-count1 {
+    margin-top: 13px;
+    margin-top: 12px;
+    display: inline-block;
+    margin-left: auto;
+    width: 24.6%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.line-contact {
+    padding-left: 20px;
+}
+
+.people-count1 h1 {
+    font-weight: bold;
+    color: red;
+}
+
+.footer-about {
+    padding: 30px 22px;
+    margin-top: 5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(226, 75, 75);
+    box-shadow: 0 10px 20px rgba(151, 146, 146, 0.5);
+}
+
+.btn-about {
+    display: inline-block;
+    float: right;
+    padding: 0.8rem 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+    margin: 0 auto;
+    border: 2px solid rgb(253, 253, 253);
+    box-shadow: 0 5px 10px rgba(151, 146, 146, 0.5);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: -2rem;
+
+
+}
+
+
+/* ################################## contact body ############################# */
+
+
+.contact-body {
+
+    height: 90%;
+    display:flex;
+
+}
+
+.company-d {
+    
+    width: 49%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    padding: 1.5rem 1rem;
+    margin: 1.3rem 0;
+    font-size: 15px;
+    box-shadow: 0px 5px 10px 2px #272525;
+}
+
+.form-d {
+    
+    padding: 1rem 1rem;
+    width: 49%;
+    float: right;
+    margin: 1.3rem 0;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: -1rem;
+    box-shadow: 0px 5px 10px 2px #272525;
+
+}
+
+.contact-body::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.company-text {
+    
+    padding-bottom: 3rem;
+    font-size: 15px;
+}
+
+.company-d .company-image img {
+   
+    width: 90%;
+    padding-left: 1rem;
+    box-shadow: 0px 2px 20px 2px #272525;
+
+}
+
+.color-contact {
+    background-color: #ddd;
+}
+
+.company-text h1 {
+    border-bottom: 5px solid red;
+    display: inline-block;
+}
+
+.company-text p {
+    font-size: 15px;
+    padding-top: 0.5rem;
+}
+
+
+/* ######################################## user form style ###############################
+ */
+.form-d {}
+
+.header-userform h1 {
+    font-weight: 700;
+    color: red;
+    font-size: 20px;
+    border-bottom: 9px solid red;
+    padding-bottom: 0.5rem;
+
+}
+
+.header-userform p {
+    font-size: 15px;
+    padding-bottom: 1.2rem;
+}
+
+.form-input label {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 0.2rem;
+
+}
+
+.form-input input,
+textarea {
+    width: 98%;
+    margin-left: 0.2rem;
+}
+
+.btn-form-submit {
+    margin: 1.6rem 10.5rem;
+    padding: 0rem 2rem;
+    color: white;
+    background-color: red;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 12px #272525;
+    cursor: pointer;
+}
+
+
+
+/* ######################################## responsive ############################ */
+
+@media (max-width:769px) {
+
+    .topnav a {
+        float: none;
+        display: block;
+        padding: 8px 30px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .nav-item {
+        padding-right: 10px;
+    }
+
+    .topnav .logo {
+        float: none;
+        font-size: 15px;
+    }
+}
+
+/* ################################# responsive header part ############################### */
+
+@media (max-width:500px) {
+
+    .header-headding {
+        font-size: 30px;
+    }
+
+    .header-paragraph,
+    .btn {
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .btn {
+        position: none;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 1rem;
+        padding-top: 10px;
+        color: #272525;
+    }
+
+    .header-body {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* ############################################## responsive image and text box ############################## */
+
+@media (max-width:670px) {
+
+    .img-box1,
+    .text-box1 {
+        float: none;
+        width: 100%;
+        height: 50%;
+    }
+    .img-box2,
+    .text-box2 {
+        float: none;
+        width: 100%;
+        height: 50%;
+    }
+}
+@media (max-width:631px){
+    .box-contact {
+        height: 468px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap:unset;
+        overflow: auto;
+    }
+
+    .box1,.box2,.box3{
+        overflow: auto;
+        float: none;
+    }
+    .box p{
+        font-size: 8px;
+    }
+
+    
+}
+/* ######################## footer ############################
+ */
+@media (max-width:500px){
+    .footer{
+        padding: 10px;
+    }
+
+.footer p{
+    font-size: 10px;
+}
+}
+
+/* ########################## 2nd page about ################################## */
+
+@media(max-width:967px){
+    .right-side{
+        float: none;
+        padding: 1rem;
+        width: auto;
+        text-align: center;
+        display: block;
+    }
+    .left-side{
+        float: none;
+        padding: 1rem;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+        display: block;
+    } 
+}
+
+@media(max-width:951){
+    .container-about {
+        display: block;
+        text-align: center;
+    }
+    .people-count1 {
+        float: none;
+        display: block;
+        padding: 0%;
+        margin: -1%;
+    }
+}
+
+@media(max-width:744px) {
+    .footer-about .h1{
+        
+    }
+    .btn-about{
+        float: none;
+        margin-top: 1rem;
+        font-size: 10px;
+    }
+    
+}
